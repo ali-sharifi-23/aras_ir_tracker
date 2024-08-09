@@ -6,5 +6,5 @@
   camera_ports:
     - 5000
   record: true
-  path: 'record_dir'
+  path: './record'
   print_markers: false
