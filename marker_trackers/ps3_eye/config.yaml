@@ -16,5 +16,5 @@
   remote_ip: "127.0.0.1"
   remote_port: 5000
   fps: 50
-  gain: 20
-  exposure: 50
+  gain: 60
+  exposure: 100

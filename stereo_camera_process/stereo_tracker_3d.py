@@ -65,7 +65,7 @@ def callback(reception_stamp, data):
 
                 # If required, record the marker locations into the recorder class
                 if configs['record']:
-                    recorder.update([data[0], np.array([e1,e2]), landmarks.squeeze()[0:3]])
+                    recorder.update(5000,[data[0], np.array([e1,e2]), landmarks.squeeze()[0:3]])
 
 # A function that is called on the reception of Ctrl-C interrupt. It cleans up the system and stores the data
 def termination_handling(signum,frame):
