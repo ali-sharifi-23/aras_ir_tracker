@@ -16,7 +16,7 @@
   cam1_params_path: 'sample_dataset/intrinsics/5002_0.yaml'
   cam2_params_path: 'sample_dataset/intrinsics/5002_1.yaml'
   max_markers_per_image: 1
-  ext_params_path: 'sample_dataset/ext_5000-0->5000-1.pckl'
+  ext_params_path: 'sample_dataset/1404-03-03.pckl'
   record: true
   path: 'dataset_tmp_dir'
   print_markers: 1

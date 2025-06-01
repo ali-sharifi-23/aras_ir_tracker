@@ -8,13 +8,13 @@
     - '0-2'
     - '0-3'
   calib_files:
-    - 'params/intrinsics/5002_0.yaml'    
-    - 'params/intrinsics/5002_1.yaml'
+    - 'params/intrinsics/camL.yaml'    
+    - 'params/intrinsics/camR.yaml'
   apply_KD: false
   display: true
   print_markers: true
   remote_ip: "127.0.0.1"
   remote_port: 5000
   fps: 50
-  gain: 60
-  exposure: 100
+  gain: 80
+  exposure: 255
